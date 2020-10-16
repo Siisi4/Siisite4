@@ -1,32 +1,70 @@
-head{
-    padding: 800px;
-    margin-left: 0px;
-    background: rgb(207,117,2);
-    background: linear-gradient(90deg, rgba(207,117,2,1) 0%, rgba(190,177,7,1) 43%, rgba(255,70,0,1) 100%);
+@font-face{
+    font-family: generalFont;
+    src: url(Fonts/Fragmentcore.otf);
+}
+@font-face{
+    font-family: paraFont;
+    src: url(Fonts/IBMPlexSerif-Regular.ttf);
+}
+@font-face{
+    font-family: pTitre;
+    src: url(Fonts/IBMPlexSans-Regular.ttf);
 }
 
+.header{
+    text-align: center;
+    font-family: generalFont;
+}
+
+.signature{
+    color: darkblue;
+}
+
+.entete{
+    background-image: url('Pics/Book_in_ALPHA.png');
+    width: 100%;
+    height: 400px;
+    background-size: 100% 100%;
+   
+}
+
+.bookinimg{
+    display: flexbox;
+    width: 50%;
+    margin-left: 0px;
+}
+
+
+
 h1{
-    color: #A60825;
+    color: #F2BA52;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+
 }
 
 h2{
-    color:#B6D6F2;
+    color:#68A68F;
+    
 }
 
 h3{
-    color: #F2E422;
+    color: #4971A6;
+    font-family: pTitre;
 }
 
 h4{
-    color: #F2AE2E;
+    color: #8BA5D9;
+    font-family: pTitre;
 }
 
 h5{
-    color: #F24949;
+    color: #F2A0A7;
 }
 
 p{
-    color: #F2A0B6;
+    color: black;
+    font-family: paraFont;
+    font-size: 15px;
 }
 
 a{
@@ -39,17 +77,22 @@ a:hover{
 }
 
 .Sandbox{
-    color: #F2A0B6;
-    border: 3px solid #c1a584;
+    color: #292929;
+    border: 3px inset #c1a584;
     padding-left: 900px;
     border-left: unset;
-    border-bottom: unset;
     border-top: unset;
+    border-bottom: unset;
+    padding-right: 10px;
     width: 500px;
     position: absolute;
+    font-family: paraFont;
+    font-size: 18px;
+    font-style: italic;
 }
+
 body{
-    background-color: #333333
+    background-color: white
 }
 
 
@@ -67,10 +110,10 @@ body{
     position: relative;
 }
 
-.frameGhost{
-    position: static;
-}
 
+.GhostsWay{
+    font-size: 12px;
+}
 
 ul {
     list-style-type: none;
@@ -93,5 +136,5 @@ ul {
   }
   
   li a:hover {
-    background-color: #F2A0B6;
+    background-color: white;
   }
