@@ -1,0 +1,65 @@
+@font-face{
+    font-family: generalFont;
+    src: url(Fonts/Fragmentcore.otf);
+}
+@font-face{
+    font-family: paraFont;
+    src: url(Fonts/IBMPlexSerif-Regular.ttf);
+}
+@font-face{
+    font-family: pTitre;
+    src: url(Fonts/IBMPlexSans-Regular.ttf);
+}
+
+body{
+    background-color: #261818;
+}
+
+h1{
+    color: #F2BA52;
+    font-family: generalFont;
+    text-align: center;
+}
+
+h2{
+    color:#F2EBEC;
+    font-family: pTitre;
+}
+
+h3{
+    color: #F2C9D1;
+    font-family: pTitre;
+}
+
+h4{
+    color: #F2B6C1;
+    font-family: pTitre;
+}
+
+h5{
+    color: #F2A2B1;
+    font-family: pTitre;
+}
+
+p{
+    color: #BCA3BF;
+    font-family: paraFont;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.explique{
+    color: #F2DC99;
+    font-family: paraFont;
+    font-size: 15px;
+}
+
+.OULIPO{
+    text-align: center;
+}
+
+li{
+    color: plum;
+    font-family: pTitre;
+    font-size: 18px;
+}
